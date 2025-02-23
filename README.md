@@ -1,5 +1,7 @@
 # Data Sorter
 
+# Live Demo: https://data-sorter.streamlit.app/
+
 ## Overview
 Data Sorter is a Python application designed to efficiently sort data from various file formats, including CSV, and excel files. It provides users with an easy-to-use interface for organizing and structuring data based on different sorting criteria.
 
@@ -44,15 +46,6 @@ Sort a CSV file by the "price" column in descending order:
 python sorter.py --file products.csv --column price --order desc --output sorted_products.csv
 ```
 
-## Requirements
-- Python 3.x
-- Pandas (for CSV/JSON processing)
-- argparse (built-in)
-
-Install dependencies with:
-```bash
-pip install pandas
-```
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository, create a new branch, and submit a pull request with your improvements.
